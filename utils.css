@@ -1,0 +1,76 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --font-fam : 'Kumbh Sans', sans-serif;
+    --primary-orange: hsl(26, 100%, 55%);
+    --primary-pale-orange: hsl(25, 100%, 94%) ;
+}
+
+/* font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-size: 16px; */
+    font-family: var(--font-fam);
+    perspective: 100px;
+    overflow-x: hidden;
+}
+
+.main-container{
+    min-height: 100vh;
+    position: relative;
+    transition: 1s all;
+    /* overflow-x: hidden; */
+   background-color:  hsl(223, 64%, 98%);
+   /* transform: translate3d(-9px, -11px, -154px); */
+   /* animation-name: look; */
+   animation-duration: 3s;
+   animation-timing-function: ease-in-out;
+   animation-iteration-count:1;
+   /* animation-direction: alternate; */
+   
+}
+
+@keyframes look {
+    0%{
+
+        /* transform: translate3d(0px, 0px, -404px); */
+        /* transform: translate3d(0px, 200px, 0px); */
+        transform: translate3d(-600px, 0px, 0px);
+        /* transform: rotate3d(1, 1, 1, 180deg); */
+    }
+    100%{
+        
+        transform: translate3d(0px, 0px, 0px);
+        /* transform: rotate3d(1, 1, 1, 0deg); */
+    }
+    
+}
+
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
+.font-kumbh{
+    font-family: Kumbh Sans;
+}
+
+.f-weight-4{
+font-weight: 400;
+}
+.fweight-7{
+font-weight: 400;
+}
+
+.flex-col{
+    flex-direction: column;
+}
