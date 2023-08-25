@@ -10,3 +10,6 @@ What I used:
 - CSS custom properties
 - Flexbox
 - Vanilla js
+
+
+live : https://mrafayyy.github.io/E-commerce-product-page/
